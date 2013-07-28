@@ -1,6 +1,8 @@
 * {
     margin: 0;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
+
 ul {
     margin: 0;
     padding: 0;
@@ -10,12 +12,146 @@ li {
     padding: 0;
     list-style-type: none;
 }
-a:link {}
-a:visited {}
-a:hover {}
-a:active {}
+a:link {
+    text-decoration: none;
+    color: #474747;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: #00b5ff;
+}
+a:active {
+    text-decoration: none;
+    color: #00a2ff;
+}
 
-#wrapper {}
-#header {}
-#content {}
-#footer {}
+.clear {
+    clear: both;
+}
+
+#wrapper {
+    margin: auto;
+    width:960px;
+}
+#header {
+    height:580px;
+    background-image: url("../images/bg_main_decor.jpg");
+}
+
+#nav {
+    width:960px;
+    height: 80px;
+    float: right;
+    padding-top: 10px;
+}
+
+#nav li {
+    width:auto;
+    float: right;
+    padding-right: 30px;
+    line-height: 30px;
+}
+
+#banner {
+    width: 960px;
+    height: 573px;
+    background-image: url("../images/banner_jetbrains_index.png");
+    border-bottom: #bdbbbc 2px solid;
+    background-repeat: no-repeat;
+    float: left;
+    background-color:#dbd9d2;
+}
+
+#content {
+    width: 960px;
+}
+
+#top {
+    height: 300px;
+    width: 960px;
+    float: left;
+    background-color: floralwhite;
+}
+.menu {
+    width: 960px;
+    padding-bottom: 0px;
+    margin: 0px 80px 20px 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font: 400 22px/32px "GraublauSlab-Regular", Helvetica, Arial, sans-serif;
+    float:right;
+    padding-top: 7px;
+}
+
+.menu li {
+    width: auto;
+    float: right;
+    line-height: 30px;
+    padding-right: 10px;
+}
+
+.left {
+    width: 360px;
+    float: left;
+}
+.center {
+    width: 360px;
+    float: left;
+}
+
+.title {
+    width: 360px;
+    height: 35px;
+    float: left;
+    font:#474747;
+}
+.text {
+    width: 360px;
+    height: 50px;
+    float: left;
+}
+.btl,.btr {
+    width:auto;
+    height: 20px;
+    float: left;
+    background-color: #4a95c4;
+    margin: 20px;
+}
+.right {
+    width: 200px;
+    float: left;
+    height: 500px;
+    border: 2px #e5e6e7 dashed;
+}
+.right li {
+    width: auto;
+    float: left;
+    line-height: 20px;
+    padding-right: 12px;
+    padding-top: 6px;
+}
+
+
+
+#news {
+    height: 300px;
+    width: 960px;
+    float: left;
+    background-color: #f2f1f2;
+}
+
+#bottom {
+    height: 300px;
+    width: 960px;
+    float: left;
+    background-image: url("../images/bg_main_customers.jpg");
+}
+
+
+#footer {
+    background-color: #dbd9d2;
+    height:300px;
+}
